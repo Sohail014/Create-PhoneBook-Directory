@@ -12,7 +12,7 @@ public class Contact_create_PhoneBookUC1 {
     public void addMemberContactDetails(String firstName, String lastName, String address, String phoneNumber, String landlineNumber, String email) {
         Details member = new Details(firstName, lastName,address, phoneNumber, landlineNumber, email);
         memberContacts.add(member);
-        System.out.println("Hurray ! member added");
+        System.out.println("Contact Edit");
         display(member);
     }
     // method  to display details of member book entries
